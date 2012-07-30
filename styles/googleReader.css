@@ -1,0 +1,30 @@
+//p {letter-spacing: 2px !important;}
+
+.loaded #gb, #viewer-header-container, #guser, #gbar, #top-bar, #lhn-add-subscription-section {
+	display: none !important;
+}
+
+#viewer-header, #sections-header {
+	height: 35px !important;
+}
+
+
+#home, #chrome-viewer-container {
+	border-left: 1px solid #EBEBEB !important;
+}
+
+#title-and-status-holder {
+	padding: 0 0 0 .5em !important;
+}
+
+.entry .entry-body, .entry .entry-title {
+	max-width: none !important;
+}
+
+#entries.cards .entry { 
+	margin: 0px 0px 10px !important;
+}
+
+.entry-body {
+	font-size: 16px !important;
+}

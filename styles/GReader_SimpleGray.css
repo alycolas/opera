@@ -1,0 +1,418 @@
+/*
+ * Google Reader Templet - Simple Gray Style
+ *
+ * Author : yansyrs
+ * Version : v1.1 @ 2011.11.17
+ * Description : 这仅仅是一个样板，实际使用时仍需自己细调。
+ */
+
+/* 条目列表高度 */
+body.loaded #scrollable-sections
+{
+	height: 971px !important;
+}
+/* 内容区域高度 */
+body.loaded #viewer-entries-container
+{
+	height: 966px !important;
+}
+/* 搜索框位置 */
+body.loaded #search
+{
+	left: 1450px !important;
+}
+
+/* ------------------------- body & html --------------------------*/
+body.loaded
+{
+	background-color: rgb(220, 220, 220) !important;
+}
+/* ---------------------- body & html end -----------------------*/
+
+/* -------------------------- 用户信息栏 --------------------------*/
+body.loaded #gb, 
+body.loaded #guser,
+body.loaded #gbar,
+body.loaded .gbh
+{
+	display: none !important;
+}
+/* ------------------------ 用户信息栏 end ------------------------*/
+
+/* ---------------------------- logo -------------------------------*/
+body.loaded #logo-container
+{
+	display: none !important;
+}
+/* -------------------------- logo end -----------------------------*/
+
+/* ------------------------ loading 文本信息 ------------------------*/
+body.loaded #loading-area
+{
+	background-color: rgb(200, 200, 200) !important;
+	border: none !important;
+	padding: 2px 16px 2px 16px !important;
+	height: 25px !important;
+}
+/* --------------------- loading 文本信息 end ----------------------*/
+
+/* ----------------------------- 搜索框 -----------------------------*/
+body.loaded #top-bar
+{
+	position: absolute !important;
+}
+body.loaded #search
+{
+	position: absolute !important;
+	z-index: 11 !important;
+	min-width: 0px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	top: 3px !important;
+	width: 480px !important;
+}
+body.loaded #search>#search-input
+{
+	background-color: rgb(240, 240, 240) !important;
+	border-radius: 5px !important;
+	width: 200px !important;
+	height: 25px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+body.loaded #search .search-restrict
+{
+	width: 100px !important;
+	height: 25px !important;
+}
+body.loaded #search>#search-input:focus,
+body.loaded #search .search-restrict:focus
+{
+	border: 1px solid gray !important;
+}
+body.loaded #search>div[role="button"],
+body.loaded #search>div[role="button"]:hover
+{
+	background-color: rgb(200, 200, 200) !important;
+	background-image: none !important;
+	border: none !important;
+	height: 27px !important;
+}
+body.loaded #search>div[role="button"]>img
+{
+	margin-top: 3px !important;
+}
+/* --------------------------- 搜索框 end ---------------------------*/
+
+/* ------------------------------ 左侧栏 ------------------------------*/
+/* 左侧栏整体效果 */
+body.loaded #main>#nav
+{
+	width: 230px !important;
+	border-right: 1px solid gray !important;
+	box-shadow: 0px 0px 2px gray !important;
+	background-color: rgb(200, 200, 200) !important;
+}
+body.loaded #scrollable-sections-holder *
+{
+	border: none !important;
+}
+body.loaded #scrollable-sections *
+{
+	background-color: rgb(240, 240, 240) !important;
+}
+/* 订阅按钮 */
+body.loaded #lhn-add-subscription-section
+{
+	height: 25px !important;
+	width: 100% !important;
+}
+
+body.loaded #lhn-add-subscription
+{
+	height: 25px !important;
+	margin-left: 0px !important;
+	width: 100% !important;
+	padding: 0px !important;
+	border: none !important;
+	background-color: rgb(180, 180, 180) !important;
+	background-image: none !important;
+}
+body.loaded #main>#chrome
+{
+	margin-left: 234px !important;
+}
+
+/* 滚动时的线条 */
+body.loaded #scrollable-sections-top-shadow,
+body.loaded #scrollable-sections-bottom-shadow
+{
+	display: none !important;
+}
+
+/* 条目列表 */
+body.loaded #scrollable-sections > *
+{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+body.loaded #home-section>#overview-selector
+{
+	padding-left: 20px !important;
+	border: none !important;
+}
+body.loaded #lhn-selectors .selector
+{
+	padding-left: 20px !important;
+}
+body.loaded .folder .name.name-d-0
+{
+	padding-left: 20px !important;
+}
+body.loaded #sub-tree-header
+{
+	padding-left: 20px !important;
+}
+body.loaded .section-minimize
+{
+	left: 3px !important;
+}
+body.loaded .folder .folder .folder-toggle
+{
+	margin-left: 15px !important;
+}
+body.loaded .folder .folder > a > .icon
+{
+	margin-left: 30px !important;
+}
+body.loaded .folder .folder > ul .icon
+{
+	margin-left: 40px !important;
+}
+body.loaded .folder .folder .name-text
+{
+	max-width: 140px !important;
+}
+body.loaded .folder .sub-icon
+{
+	margin-left: 30px !important;
+}
+body.loaded .lhn-section-primary
+{
+	height: 25px !important;
+	line-height: 25px !important;
+}
+body.loaded #lhn-selectors
+{
+	height: 25px !important;
+}
+body.loaded .scroll-tree li a
+{
+	white-space: normal !important;
+}
+/* 条目列表图标 */
+li.sub > a.link > div.icon
+{
+	background-image: url("http://www.google.com/reader/ui/3660573864-lhn-sprite.png") !important;
+	background-position: 0px -77px !important;
+	opacity: 0.4 !important;
+}
+li.sub > a.link.tree-link-selected > div.icon
+{
+	opacity: 1 !important;
+}
+/* --------------------------- 左侧栏 end ---------------------------*/
+
+/* ---------------------------- 正文区域 -----------------------------*/
+/* 主页 */
+body.loaded #sections-header
+{
+	margin: 0px !important;
+	height: 40px !important;
+}
+body.loaded #home > #sections-holder
+{
+	height: auto !important;
+}
+body.loaded #home #footer
+{
+	display: none !important;
+}
+
+/* 刷新、供稿按钮、上一个/下一个条目等元素 */
+body.loaded #viewer-header
+{
+	position: absolute !important;
+	width: 520px !important;
+	height: 30px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	left: 380px !important;
+	z-index: 10 !important;
+	background-color: rgb(220, 220, 220) !important;
+}
+/* 刷新按钮 */
+body.loaded #viewer-refresh
+{
+	display: none !important;
+}
+body.loaded #viewer-view-options,
+body.loaded #mark-all-as-read-split-button,
+body.loaded #viewer-top-controls .goog-button
+{
+	margin-right: 1em !important;
+}
+body.loaded .goog-inline-block,
+body.loaded .goog-inline-block:hover
+{
+	height: 25px !important;
+	line-height: 25px !important;
+	background-color: rgb(240, 240, 240) !important;
+	border-radius: 5px !important;
+}
+/* 提示文字 */
+body.loaded #message-area-container .goog-inline-block
+{
+	height: auto !important;
+	line-height: normal !important;
+	border-radius: 0px !important;
+	background-color: transparent !important;
+}
+body.loaded .goog-flat-menu-button-dropdown,
+body.loaded .goog-flat-menu-button-dropdown:hover
+{
+	height: 5px !important;
+}
+body.loaded .goog-button-base-content
+{
+	padding-top: 4px !important;
+}
+body.loaded #chrome-view-links
+{
+	background-color: rgb(220, 220, 220) !important;
+}
+body.loaded #chrome-view-links img,
+body.loaded #item-up-down-buttons img
+{
+	margin-top: 2px !important;
+}
+/* 标题及条目位置调整 */
+body.loaded #title-and-status-holder
+{
+	position: absolute !important;
+	z-index: 10 !important;
+	top: 0px !important;
+	width: 150px !important;
+}
+body.loaded #title-and-status-holder>#viewer-single-parent
+{
+	position: absolute !important;
+	left: 157px !important;
+	width: 290px !important;
+	text-align: left !important;
+}
+body.loaded #title-and-status-holder>#chrome-title
+{
+	width: 150px !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap !important;
+	overflow: hidden !important;
+}
+body.loaded #main
+{
+	position: static !important;
+}
+body.loaded #viewer-entries-container
+{
+	margin-top: 30px !important;
+	position: static !important;
+	background-color: rgb(220, 220, 220) !important;
+}
+/* 登录后的首页部分 */
+body.loaded #chrome.page-view #viewer-page-container
+{
+	background-color: rgb(240, 240, 240) !important;
+}
+/* 正文条目 */
+body.loaded #no-entries-msg
+{
+	background-color: rgb(240, 240, 240) !important;
+}
+body.loaded #entries
+{
+	border: none !important;
+	padding: 1px !important;
+}
+body.loaded #entries>.entry
+{
+	padding: 1px !important;
+	background-color: rgb(220, 220, 220) !important;
+}
+body.loaded #entries>.entry .card,
+body.loaded #entries.search > .entry.read
+{
+	border: 2px solid rgb(200, 200, 200) !important;
+	border-radius: 7px !important;
+	background-color: rgb(240, 240, 240) !important;
+}
+body.loaded #entries>#current-entry .card
+{
+	border: 2px solid gray !important;
+	border-radius: 7px !important;
+}
+body.loaded .entry .entry-body,
+body.loaded .entry .entry-title,
+body.loaded .entry .entry-likers
+{
+	max-width: 80% !important;
+}
+/* 正文条目列表模式 */
+body.loaded #entries.list > .entry > .collapsed
+{
+	height: 18px !important;
+}
+/* 搜索结果列表 */
+body.loaded #entries.search > .entry.read
+{
+	padding: 5px 10px 5px 10px !important;
+}
+body.loaded #chrome.search-stream #entries.search .entry-secondary-snippet
+{
+	max-width: 80% !important;
+}
+/* 加注星标、+1 一栏 */
+body.loaded .card-common .card-actions
+{
+	padding: 1px !important;
+	margin: auto 10px 3px auto !important;
+}
+body.loaded .card-common .entry-actions
+{
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+}
+/* +1、g+ 按钮 */
+body.loaded .card-common .item-plusone,
+body.loaded .card-common .sharebox
+{
+	display: none !important;
+}
+/* loading 小圆钮 */
+body.loaded #activity-indicator
+{
+	display: none !important;
+}
+/* ------------------------- 正文区域 end ---------------------------*/
+/* --------------------------- 弹出菜单 ------------------------------*/
+body.loaded .goog-menuitem,
+body.loaded .goog-tristatemenuitem,
+body.loaded .goog-filterobsmenuitem,
+body.loaded .goog-menuitem:hover, 
+body.loaded .goog-tristatemenuitem:hover,
+body.loaded .goog-filterobsmenuitem:hover
+{
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	border: none !important;
+}
+/* ------------------------ 弹出菜单 over ----------------------------*/

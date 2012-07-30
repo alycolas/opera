@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* Name: ÏÔÊ¾¶¹ÂÌ±³¾°
+High contrast (W/B)
+Copyright 2011 Opera Software */
+/*#e5ede0*/
+body  {background-color:#cce8cf !important;}
+div:not([class*="nav"]) {background-color: #cce8cf !important;}
+body>div   {background-color:transparent !important;}
+td    {background-color:#cce8cf !important;}
+table {background-color:#cce8cf !important;}
+/*p,div,span,h2,h3,h4,font {color: #0b3b8c !important;}*/
+
+#header, #miniheader {
+	background: none !important;
+}

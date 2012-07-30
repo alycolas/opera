@@ -1,0 +1,69 @@
+﻿body{text-shadow: 0 0 2px #CCCCCC !important;}
+/* KCplayer */
+#playPage { 
+	height: 600px !important;
+	margin: 15px auto;
+	width: 1000px;
+}
+
+
+
+/* 3g weibo  start*/
+.user_slide, #carousel_dots {display: none !important;}
+/* 3g weibo end */
+
+
+#read_tpc { 
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+background: #111111;
+ }
+#read_tpc img {margin:auto;float:left;padding: 2px; }
+
+* {
+	box-shadow: none !important;
+}
+/* youtube */
+#yva-bg {display: none !important;}
+/*weibo*/
+.MIB_topNotice {display: none !important;}
+
+#readTools {position: absolute !important;}
+
+
+
+
+/*	youku	*/
+.YK_gotop, #feedback, #ab_282, div[class="handle"][title="用户反馈:您喜欢新版搜库吗?"] {
+	display: none !important;
+}
+
+
+/* preve */
+div[id="sp-fw-container"],div[style="position:absolute;top:0;left:0;width:0;height:0;z-index:1"]
+{display: none !important;}
+
+/* videos*/
+td[width="180"],table[width="340"][height="480"][border="0"][cellpadding="1"][cellspacing="0"],td[style="padding: 2px 5px 3px;"][align="center"],table[width="930"]
+{display: none !important;}
+
+/* engadget */
+div[class="medrect"]
+{display: none !important;}
+
+
+
+/* gototop */
+#gototop, #goToTop, #GoToTop, #scrolltop, #goTop {
+	display: none !important;
+}
+
+#emailnoyz {
+	display: none !important;
+}
+
+
+/*baidu*/
+#frs_banner_ad, .l_banner {display:none !important;}

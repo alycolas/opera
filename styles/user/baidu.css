@@ -1,0 +1,173 @@
+﻿/* tieba*/
+.d_content_has_lzl { 
+	width: 100% !important;
+}
+
+.d_post_reply { 
+	float: right !importat;
+	width: 835px !important;
+}
+
+.lzl_container_border_aside { 
+	background-color: #FAFAFA;
+	border-top: 1px solid #F4F4F4;
+	border-bottom: 1px solid #F4F4F4;
+}
+
+
+#frs_nav{ outline: ridge rgb(77,144,240) 3px;}
+.d_split_line {
+	border-width: 2.5px !important;
+	border-color: rgb(77,144,240) !important;
+}
+body { background-image: none !important;}
+.l_container table tbody tr td[width="235px"] { display: none !important; }
+
+/*	屏蔽	*/
+#tb_adv_frame {
+	display: none !important;
+}
+a[style="position:absolute;top:18px;left:775px;background:url(http://static.tieba.baidu.com/tb/cms/zt8year/searchEnter2.png) 0px 0px no-repeat;_background:url(http://static.tieba.baidu.com/tb/cms/zt8year/searchEnter.png) 0px 0px no-repeat;width:204px;height:70px;" href="http://tieba.baidu.com/tb/zt/8/index.html?src=ban"] { display:none !important; }
+#csa, #swf_wrapper, #cy_mod, #festival_mod { display:none !important; }
+.p_sharebar, #sidecatalog, .bub_cnt_in, .tb_poptip_wrapper, .lzl_big_splitline, .d_ding_up, td[style="padding-top:10px;padding-right:3px;"],div[class="d_ding_down"],div[class="d_sign_split"],div[id="editor"],div[class="p_ding_down"],div[id="ft"],div[class="p_searchbox"],div[class="l_menu"],div[class="lzl_editor_wrapper j_lzl_e_w"] {
+
+	display:none !important;
+
+}
+
+/*zhuxian----------------------------------------------------------------------*/
+#container, .frs_box, .wrap2,.nav, .nav_wrap, .nav_left, .nav .focus, .nav .focus a, .nav li, .pagination span.current { 
+	background-image: none !important;
+}
+.th_list .h { 
+	background-color: transparent !important;
+}
+.th_list li {width: 100% !important;}
+.th_w2 {width: 735px !important;}
+.th_lz, .th_info {width: 558px !important;}
+/*zhuxian----------------------------------------------------------------------*/
+
+.contet_wrap { 
+	margin-right: 0px !important;
+}
+.frs_content {width: 75% !important;}
+#aside {width: 22% !important; float: right !important; padding-left: 15px !important;}
+
+div[class="l_post"] {
+	padding-left: 5px !important; 
+	width: 99% !important;
+}
+div[class="l_thread_info"]{padding-left: 0 !important;}
+div[class="lzl_cnt"]{margin-left: 0px !important;}
+div.l_container {
+	width: 79% !important;
+	margin-left: auto !important;
+    margin-right: auto !important;
+	background-color: gray !important;
+}
+div[class="l_info"]{padding-left: 0px !important;}
+
+div[id="com_userbar"]{
+	top: 26px !important;
+	padding-left: 0px !important;
+	padding-right: 1px !important;
+	font-weight: 500 !important;
+	//left: 9.5% !important;
+	//float: right !important;
+	//position: static !important;
+	border: groove !important;
+}
+
+div li a {
+	color: #0000ff !important;
+}
+
+//div[id="container"][class="clearfix"]{width: 1250px !important;}
+
+#container {
+	width:  1100px !important;
+	margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#header, #head {
+	width:  759px !important;
+	margin-left: auto !important;
+                  margin-right: auto !important;
+	//padding-left: 23% !important;
+//	border: 1px solid #ffffff;
+	//width: 550px !important;
+	padding: 7px;
+	margin-top: 10px !important;
+	margin-top: 10px !important;
+}
+
+div[class="fixedwidth"], div[class="pb_content_wrapper_border_aside"],div[class="l_core"],div[class="p_postlist"],div[class="pb_content_wrapper"], div.p_thread, .l_info {
+	
+	width: 100% !important;
+	padding-left: 0 !important;
+
+}
+
+
+
+div, body, .d_post_split, div[class="l_core"], div[class="pb_content_wrapper"], .l_info, #frs_nav_wrap { 
+	background-color: #cce8cf !important;
+	//background-color: #a0a0a0 !important;
+}
+.thread_list th, .thread_alt { 
+	background-color: rgb(240,240,240) !important;
+ }
+
+
+li {border: none !important;}
+
+tl , #aside .mod{background-image: none !important;}
+
+.p_postlist, .aside, #content_leftList, .l_info, #head {
+	border: 4px ridge rgb(77,144,240) !important;
+	//padding: 1px !important;
+	//outline: ridge rgb(77,144,240) 4px;
+}
+.pb_content_wrapper_border_aside {
+	border-right-color: rgb(255, 255, 255) !important;
+}
+
+
+.u_reg, .u_login, .split {
+
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+
+}
+
+.lzl_time, .lzl_content_main, li, fieldset, fieldset legend { 
+	color: rgb(75, 75, 75) !important;
+}
+
+.userunlike_mod, .userliked_modtl, .userliked_modtl, .userliked_modtl, .tl, .mod j_editable, .mod j_editable, .mod j_editable, .mod j_editable {
+
+	background-image: none !important;
+
+}
+
+.userunlike_mod {width: 210px !important;}
+
+.l_sr_right a { 
+	padding-right: 0px !important;
+}
+
+
+
+
+.weekCal .todayRow, .weekCal .calNaviTitle, .d_lzonly_bdaside {
+	background-color: transparent	!important;
+}
+
+/*信息*/
+.like_badge {
+	background: none !important;
+}
+#tip_iframe { 
+	height: 160px !important;
+}

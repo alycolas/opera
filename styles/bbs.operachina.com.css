@@ -1,0 +1,99 @@
+﻿Body { background: rgb(0,0,0) url('./img/operachina_bg.jpg') no-repeat 50% 0 !important; }
+a:hover { border: none !important; }
+::selection { background: rgba(90,70,90,0.76) !important; color:rgb(255,255,255) !important; }
+
+#bg-forum { background: none !important; height: 0px !important; }
+
+#page { margin: 250px auto 70px auto !important; background: rgb(247,247,247) !important; box-shadow: 0px 2px 5px rgb(0,0,0) !important; width: 966px !important; padding: 0px 0px 90px 0px !important; border-top: 1px dashed rgb(47,40,47) !important; border-bottom: 1px dashed rgb(0,0,0) !important; }
+
+#nav #brand { display: none !important; }
+#mainmenu { height: 0px !important; min-height: 0px !important; padding: 0px !importannt; margin: 0px 207px 0px 207px !important; position: absolute !important; top: -250px !important; width: 522px !important; }
+#mainmenu > li { margin-top: 0px !important; }
+#mainmenu > li.on, #mainmenu > li:hover, #mainmenu > li:focus { background: none !important; }
+#mainmenu > li.support { margin-top: 14px !important; }
+#mainmenu > li > a { max-height: 46px !important; height: 46px !important; line-height: 46px !important; }
+#mainmenu > li > a span { background: none !important; }
+#mainmenu > li > ul { background: rgba(90,70,90,0.76) !important; top: 44px !important; font-family: arial !important; }
+#mainmenu > li > ul > li { border: none !important; }
+#mainmenu > li > ul > li > a:hover { background: rgb(60,53,60) !important; }
+
+.headerbar { height: 0px !important; }
+.headerbar #search-box { z-index: 997 !important; margin: 0px !important; position: absolute !important; right: 10px !important; top: -36px !important; border-radius: 4px !important; height: 20px !important; padding: 5px 12px 0px 12px !important; background: -o-linear-gradient(top,rgba(47,36,47,0.82),rgba(47,36,47,0.68)) !important; box-shadow: inset 0px -1px 0px rgba(255,255,255,0.26), inset 0px 1px 0px rgba(0,0,0,0.26) !important; }
+.headerbar #search-box #keywords { border: none !important; box-shadow: none !important; padding: 0px !important; background: none !important; color: rgb(247,240,247) !important; }
+.headerbar #search-box .button2 { border: none !important; box-shadow: none !important; padding: 0px !important; background: none !important; color: rgb(136,129,136) !important; }
+.headerbar #search-box br, .headerbar #search-box a[href="./search.php"] { display: none !important; }
+#forumtitle { position: absolute !important; top: -141px !important; text-align: center !important; font-family: 'arial' !important; content: 'Opera  China' !important; width: 936px !important; font-style: italic !important; color: rgb(247,240,247) !important; -o-transform: rotate(0deg) !important; text-shadow: 0px 1px 4px rgb(16,9,16) !important; }
+
+.navbar { box-shadow: 0px 1px 0px rgb(255,255,255) !important; height: 24px !important; line-height: 24px !important; margin: 0px 0px 2px 0px !important; background: -o-linear-gradient(top,rgb(247,247,247),rgb(255,255,255)) !important; border: none !important; border-bottom: 1px solid rgb(233,233,233) !important; border-radius: 0px !important; width: 966px !important; }
+.navbar .dashed { display: none !important; }
+.navbar .linklist:first-child .ucp { position: absolute !important; top: -200px !important; right: 12px !important; color: rgb(157,130,157) !important; font-family: 'arial' !important; }
+.navbar .linklist:first-child .ucp a { color: rgba(247,230,247,0.68) !important; }
+.navbar .linklist.navlink li:first-child { position: absolute !important; top: -36px !important; left: 10px !important; color: transparent !important; width: 100% !important; text-align: center !important; }
+.navbar .linklist.navlink li:first-child a, .navbar .linklist.navlink li:first-child a span { color: rgb(255,255,255) !important; font-weight: bold !important; font-family: 'arial' !important; }
+.navbar .linklist.navlink li:first-child a { margin: 0px 6px 0px 6px !important; }
+.navbar .linklist.navlink li:first-child a:last-child span { color: rgb(227,207,227) !important; font-style: italic !important; -o-transform: rotate(0deg) !important; }
+.navbar .linklist.navlink .ucp.rightside { margin-top: -24px !important; }
+
+#footer { position: absolute !important; margin: 0px !important; padding: 0px 20px 0px 20px  !important; bottom: -44px !important; left: 0px !important; height: 30px !important; line-height: 30px !imporant; width: 926px !important; border: none !important; }
+#footer #copyright { text-align: center !important; padding: 0px !important; background: none !important; color: rgb(187,167,187) !important; font-family: 'arial' !important; }
+#footer #copyright a { color: rgb(227,207,227) !important; }
+#footer #copyright span { width: 100% !important; display: block !important; }
+
+.block { padding: 0px !important; margin: 0px !important; box-shadow: none !important; border-radius: 0px !important; border: none !important; }
+.block .bar { position: relative !important; border-radius: 0px !important; }
+.block .bar.bluebg { background: -o-linear-gradient(top,rgb(78,71,90),rgb(53,46,61)) !important; }
+.block .bar.redbg { background: -o-linear-gradient(top,rgb(158,71,90),rgb(133,46,61)) !important; }
+.block tr.row { border-bottom: 1px solid rgb(233,233,233) !important; height: 46px !important; background: -o-linear-gradient(top,rgb(255,255,255) 2px,rgb(247,247,247) 2px,rgb(247,247,247) 22px,rgb(250,250,250)) !important; position: relative !important; }
+.block tr.row:first-child { background: -o-linear-gradient(top,rgb(247,247,247),rgb(247,247,247) 22px,rgb(250,250,250)) !important; }
+.block tr.row:before { content: ""; height: 1px; width: 966px; left: 0px; bottom: -1px; background: rgb(233,233,233); position: absolute; z-index: 9; } 
+
+.rules.block { box-shadow: 0px 1px 0px rgb(255,255,255) !important; border-bottom: 1px solid rgb(233,233,233) !important; }
+.rules.block .bar ~ul { padding-left: 15px !important; }
+
+.post.block { position: relative !important; overflow-y: hidden !important; margin-bottom: 3px !important; border-bottom: 1px solid rgb(233,233,233) !important; box-shadow: 0px 1px 0px rgb(255,255,255) !important; }
+.post.block .postbody { width: 775px !important; }
+.post.block .postbody .content { min-height: 255px !important; }
+.post.block .postprofile { width: 180px !important; padding: 0px !important; height: 100% !important; position: absolute !important; top: 19px !important; right: 0px !important; box-shadow: inset 1px 0px 0px rgb(255,255,255) !important; background: -o-linear-gradient(left,rgb(247,247,247),rgb(255,255,255)) !important; border-left: 1px solid rgb(233,233,233) !important; }
+
+a[style="color:#FF0000"][href="./memberlist.php?mode=group&g=2"] { content: '超级版主' !important; }
+
+.rightside.pagination,.leftside.pagination,.display-options { margin: 15px 10px 15px 5px !important; }
+.buttons { margin-top: 11px !important; margin-left: 10px !important; }
+.clear.rightside { margin-right: 12px !important; }
+.share.leftside { margin-top: 9px !important; }
+
+.topic-actions .search-box { z-index: 999 !important; position: absolute !important; top: -36px !important; right: 10px !important; margin: 0px !important; border-radius: 4px !important; height: 20px !important; padding: 5px 12px 0px 12px !important; background: -o-linear-gradient(top,rgba(47,36,47,0.82),rgba(47,36,47,0.68)) !important; box-shadow: inset 0px -1px 0px rgba(255,255,255,0.26), inset 0px 1px 0px rgba(0,0,0,0.26) !important; }
+.topic-actions .search-box #search_keywords { border: none !important; box-shadow: none !important; padding: 0px !important; background: none !important; color: rgb(247,240,247) !important; }
+.topic-actions .search-box .button2 { border: none !important; box-shadow: none !important; padding: 0px !important; background: none !important; color: rgb(136,129,136) !important; }
+
+.pagination { font-family: 'arial' !important; }
+.pagination span a,.pagination span strong { border: 1px solid rgb(229,183,200) !important; color: rgb(189,143,160) !important; }
+.pagination span a:hover,.pagination span strong { background: -o-linear-gradient(top,rgb(229,183,200),rgb(229,183,200) 8px,rgb(245,225,242)) !important; color: rgb(255,255,255) !important; }
+
+.ucp .dashed { border: none !important; margin: 0px !important; background: -o-repeating-linear-gradient(140deg,rgb(255,255,255),rgb(255,255,255) 12px,rgb(247,247,247) 12px,rgb(247,247,247) 24px) !important; height: 6px !important; }
+.ucptab,#campaign { margin-bottom: 2px !important; background: -o-linear-gradient(top,rgb(247,247,247),rgb(255,255,255)) !important; border-radius: 0px !important; border-width: 0px 0px 1px 0px !important; border-bottom: 1px solid rgb(233,233,233) !important; box-shadow: 0px 1px 0px rgb(255,255,255) !important; }
+
+.post-icon span,.reply-icon span,.locked-icon span { background: none !important; }
+.post-icon a,.reply-icon a,.locked-icon a { color: rgb(103,91,115) !important; font-weight: bold !important; text-shadow: 0px 1px 0px rgb(255,255,255) !important; }
+.post-icon,.reply-icon,.locked-icon { margin-top: -3px !important; border-radius: 4px !important; position: relative !important; padding: 0px !important; background: -o-linear-gradient(top,rgb(103,91,115),rgb(103,91,115),rgb(53,46,61)) !important; height: 30px !important; width: 78px !important; line-height: 30px !important; text-align: center !important; margin-right: 12px !important; box-shadow: 0px 1px 5px rgb(207,176,207) !important; }
+.post-icon:before,.reply-icon:before,.locked-icon:before { border-radius: 0px !important; content: "" !important; position: absolute !important; left: 5px !important; top: 5px !important; width: 68px !important; height: 20px !important; background: -o-linear-gradient(top,rgb(247,247,247),rgb(247,247,247),rgb(237,229,237)) !important; }
+.post-icon:hover a,.reply-icon:hover a,.locked-icon:hover a { color: rgb(63,51,75) !important; }
+
+.button1,input[value="GO"][class="button2"],input[onclick^="bbstyle("],input[name="add_file"],input#bbpalette { border-radius: 4px !important; color: rgb(133,133,133) !important; border: 1px solid rgb(213,213,213) !important; background: -o-linear-gradient(top,rgb(247,247,247),rgb(233,233,233)) !important; box-shadow: 0px 1px 0px rgb(255,255,255) !important; }
+input[onclick^="bbstyle("],input[name="bbpalette"] { margin-bottom: 2px !important; display: inline-block !important; }
+
+td.title { background: transparent !important; }
+td.title:before { border-radius: 2px; width: 20px; height: 20px; position: absolute; left: 11px; top: 13px; content: ""; background: -o-linear-gradient(135deg,rgb(98,81,110),rgb(53,46,61)); -o-transform: rotate(45deg); }
+td.title:after { border-radius: 0px; width: 14px; height: 14px; position: absolute; left: 14px; top: 16px; content: ""; background: -o-linear-gradient(135deg,rgb(233,233,233),rgb(255,255,255)); -o-transform: rotate(45deg); }
+td.title[style*="_unread.gif"]:before { background: -o-linear-gradient(135deg,rgb(198,181,210),rgb(153,146,161)); }
+td.title[style*="_read.gif"]:before { background: -o-linear-gradient(135deg,rgb(198,141,210),rgb(153,106,161)); }
+td.title[style*="sticky_"]:before { background: -o-linear-gradient(135deg,rgb(210,198,141),rgb(161,153,106)); }
+td.title[style*="announce_"]:before { background: -o-linear-gradient(135deg,rgb(230,141,141),rgb(181,106,106)); }
+td.title[style*="_locked.gif"]:before { background: -o-linear-gradient(135deg,rgb(101,101,101),rgb(86,86,86)); }
+td.title[style*="_moved.gif"]:before { background: -o-linear-gradient(135deg,rgb(141,141,210),rgb(106,106,161)); }
+
+.qr #postform .bar.greenbg { color: rgb(137,130,137) !important; box-shadow: 0px 1px 0px rgb(255,255,255) !important; height: 24px !important; line-height: 24px !important; margin: 0px 0px 2px 0px !important; background: -o-linear-gradient(top,rgb(247,247,247),rgb(255,255,255)) !important; border-bottom: 1px solid rgb(233,233,233) !important; border-radius: 0px !important; }
+.qr #postform #message-box-ns { padding: 10px 72px 10px 72px !important; }
+.qr #postform #message-box-ns #message { padding: 10px !important; width: auto !important; width: 800px !important; box-shadow: 0px 1px 0px rgb(255,255,255),inset -1px 0px 0px rgb(255,255,255),inset 1px 0px 0px rgb(255,255,255),inset 0px 1px 0px rgb(255,255,255) !important; border-radius: 4px !important; margin: auto !important; border: 1px solid rgb(213,213,213) !important; background: -o-linear-gradient(top,rgb(250,250,250),rgb(255,255,255)) !important; }
+textarea,#fileupload,select,input[type="text"]{ box-shadow: 0px 1px 0px rgb(255,255,255),inset -1px 0px 0px rgb(255,255,255),inset 1px 0px 0px rgb(255,255,255),inset 0px 1px 0px rgb(255,255,255) !important; border-radius: 4px !important; border: 1px solid rgb(213,213,213) !important; background: -o-linear-gradient(top,rgb(250,250,250),rgb(255,255,255)) !important; }
+textarea#message { padding: 10px !important; }

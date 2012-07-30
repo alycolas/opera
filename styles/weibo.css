@@ -1,0 +1,75 @@
+#pl_content_versionTip, #base_scrollToTop, #wbim_box, #ads_bottom_1 {display: none !important;}
+
+.global_header {position: static !important;}
+
+
+
+/* 广告 */
+div[class="cmn_nav cn_away"],ul[id="ad_container"],a[class="goTop"],div[class="tips_player"]
+{display: none !important;}
+
+.bg_gnbarea {
+	//display: none !important;
+	background-color: transparent !important;
+}
+
+#WB_box_1317549038762 {
+	position: absolute !important;
+}
+
+.MIB_feed, .MIB_mbloglist, .MIB_blogbody, body {
+	background-color: #cce8cf !important;
+}
+
+.header, #profileHead, .MIB_blogb , .W_miniblog {
+	background-image: none !important;
+}
+
+.MIB_mbloglist { 
+	padding-bottom: 20px !important;
+	padding-left: 0px !important;
+	padding-right: 3px !important;
+	padding-top: 0px !important;
+}
+
+.nfTagB, .nfBox {
+	width: 100% !important;
+	padding: 0 !important;
+}
+
+.newMblog_ts1 {
+	background: none !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.MIB_feed .MIB_feed_c { 
+	width: 535px !important;
+}
+
+/* 转发 */
+.MIB_assign, .MIB_assign .MIB_assign_t, .MIB_assign .MIB_assign_b  {
+	width: 500px !important;
+}
+
+.MIB_assign .MIB_asarrow_l {
+	margin-bottom: 0 !important;
+}
+
+.MIB_assign_t, .MIB_assign_b, .MIB_assign_c  {
+	background-color: rgb(228, 227, 227) !important;
+	background-image: none !important;
+}
+
+body {
+	background-image: url("./user/icloud.jpg") !important;
+	background-repeat: repeat-y;
+	//color: rgb(255, 255, 255) !important; 
+} 
+
+ .W_texta, a.W_texta {
+	//color: #ff9 !important; 
+} 
+
+* {font-size: 14px !important;}
+//a {color: rgb(160,190,200) !important;}

@@ -1,0 +1,26 @@
+﻿@charset "UTF-8";
+/*
+Name: 方正准圆简体
+*/
+*{
+	font-family: "方正准圆简体",Verdana!important;
+	font-weight: 500 !important;
+}
+
+#m { 
+	background-image: url("http://res.mfs.ykimg.com/051000004E8DCF63675857560500EE4E");
+	background-position: 27% 30%;
+	background-repeat: no-repeat;
+}
+#lk a, #mCon span,#cp, #cp a, #nv a, #lh a {color: #000000 !important;}
+img[src="http://gimg.baidu.com/img/gs.gif"], #mCon, #lg, #lm {display: none !important;}
+#nv { 
+	padding-top: 160px !important;
+	text-indent: 58px !important;
+}
+#fm {padding-left: 0 !important;}
+#m {
+	width: 874px !important;
+	margin-left: 25% !important;
+}
+#lk {margin-top: 153px !important;}

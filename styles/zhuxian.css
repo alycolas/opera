@@ -1,0 +1,33 @@
+div[style="background-color:#FFFFFF; border-top:1px solid #999999;border-bottom:1px solid #999999; clear:both;"]
+{display: none !important;}
+
+
+div[class="main_nav"],div[class="subNav"],div[class="blank2 bookBG"]
+{display: none !important;}
+
+
+div[class="intro"],div[style="float:left; width:220px;"],div[class="bookSimilar"],div[class="bookMain"],p[class="bookAttr"],div[class="clipBox"]
+{display: none !important;}
+
+div[class="top"],ul[class="navList"],div[class="cc box_wrap"],iframe[scrolling="no"],h2[class="bar"]
+{display: none !important;}
+
+div[class="footer"],div[style="float:left; width:220px;"]
+{display: none !important;}
+
+div[class="head"],div[class="iBox"],div[class="notice"]
+{display: none !important;}
+
+/* ÖïÏÉÂþ»­ */
+div[style="position:absolute;z-index:1"],object[classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"],div[id="ckepop"]
+{display: none !important;}
+
+div[class="xy"],div[class="tips_player"]
+{display: none !important;}
+
+div[class="tac"][style="padding:.5em 0 0;"]
+{display: none !important;}
+
+div[class="bookBG1"]{background-image: url("http://js.imanhua.com/template/default/images/") !important;}
+
+div[class="main"]{margin-left: 5% !important;}

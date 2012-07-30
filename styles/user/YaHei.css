@@ -1,0 +1,10 @@
+﻿@charset "UTF-8";
+/*
+Name: YaHei
+*/
+/*body,tr,td,p,a,ul,span,input,textarea,h1,h2,h3,h4,h5,h6 {font-family:"方正准圆简体",Verdana!important;}*/
+*{
+	font-family:"文泉驛微米黑" !important;
+	font-weight:550 !important;
+}
+

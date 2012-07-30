@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+
+/* Name: 显示灰色背景
+High contrast (W/B)
+Copyright 2011 Opera Software */
+
+body  {background-color:#C9C9C9 !important;}
+body>div   {background-color:transparent;}
+td    {background-color:#C9C9C9 !important;}
+table,div,a{background-color:#C9C9C9 !important;}
+a[id="goTop"]{background-color:#C9C9C9 !important;}
+div[class="l_core"],div[class="pb_content_wrapper"]{width: 980px !important;}
+div[class="l_post"]{width: 960px !important;}
+
+
+a:link    {color:#000000!important;}     /* 未访问的链接 */
+a:visited {color:#000000!important;}     /* 已访问的链接 */
+a:hover   {color:#0000FF!important;}     /* 当有鼠标悬停在链接上 */
+a:active  {color:#FF0000!important;}     /* 被选择的链接 */
+
+HTML:not([style]):not([class]):not([id]), BODY:not([style]):not([class]):not([id]):not([link]) {  background: none #A9A9A9 !important  }
+
+td[style="padding-top:10px;padding-right:3px;"],td[class="d_content"],div[class="d_ding_down"]
+{display:none !important;}

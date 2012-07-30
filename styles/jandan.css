@@ -1,0 +1,11 @@
+﻿body a img[width="280"],
+#sidebar h3,
+#sidebar .xy,
+#google_ads_framel,
+#box,
+#google_image_div,
+#google_ads_framel
+
+{
+	display: none ;
+}
